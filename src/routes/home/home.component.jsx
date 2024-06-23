@@ -35,6 +35,7 @@ const Home = () => {
     <div>
       <Directory categories={categories} />
       <Outlet />
+      {/* <h1>TEST</h1> */}
     </div>
   );
 };
