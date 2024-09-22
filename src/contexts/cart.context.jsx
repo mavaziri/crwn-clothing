@@ -30,6 +30,7 @@ const addCartItem = (cartItems, productToAdd) => {
 
   // return new array with modified cartItems/ new cart item
   console.log('cartItems2', [...cartItems, { ...productToAdd, quantity: 1 }]);
+
   return [...cartItems, { ...productToAdd, quantity: 1 }];
 };
 
